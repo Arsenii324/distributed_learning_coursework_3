@@ -1,0 +1,234 @@
+
+=== Sweep A: vary n_local (beta/mu_g axis) ===
+
+[n_local=100 seed=0] beta/mu=1.098e+03
+EXTRA: mix=45369 grad/node=45369 reached=True avg_sq=1.00e-04 gap=4.94e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=1.10e-01 gap=5.43e-02
+MUDAG: mix=44851 grad/node=8971 reached=True avg_sq=1.00e-04 gap=4.94e-05
+ACC-SONATA-L: mix=7700 grad/node=2201 reached=True avg_sq=1.00e-04 gap=4.94e-05
+ACC-SONATA-F: mix=8224 grad/node=2314 reached=True avg_sq=9.83e-05 gap=4.89e-05
+
+[n_local=100 seed=1] beta/mu=1.237e+03
+EXTRA: mix=50000 grad/node=50000 reached=False avg_sq=1.02e-03 gap=4.83e-04
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=1.22e+00 gap=5.74e-01
+MUDAG: mix=50000 grad/node=10000 reached=False avg_sq=3.68e-04 gap=1.74e-04
+ACC-SONATA-L: mix=9576 grad/node=2737 reached=True avg_sq=9.75e-05 gap=4.60e-05
+ACC-SONATA-F: mix=10496 grad/node=2953 reached=True avg_sq=9.78e-05 gap=4.61e-05
+
+[n_local=100 seed=2] beta/mu=1.103e+03
+EXTRA: mix=28836 grad/node=28836 reached=True avg_sq=1.00e-04 gap=5.13e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=3.22e-03 gap=1.65e-03
+MUDAG: mix=22573 grad/node=5644 reached=True avg_sq=9.99e-05 gap=5.13e-05
+ACC-SONATA-L: mix=5096 grad/node=1457 reached=True avg_sq=9.64e-05 gap=4.95e-05
+ACC-SONATA-F: mix=5600 grad/node=1576 reached=True avg_sq=9.64e-05 gap=5.41e-05
+
+[n_local=100] median beta/mu_g across seeds: 1.103e+03
+
+[n_local=200 seed=0] beta/mu=7.155e+02
+EXTRA: mix=37960 grad/node=37960 reached=True avg_sq=1.00e-04 gap=4.89e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=6.31e-02 gap=3.09e-02
+MUDAG: mix=44376 grad/node=8876 reached=True avg_sq=9.99e-05 gap=4.89e-05
+ACC-SONATA-L: mix=7616 grad/node=2177 reached=True avg_sq=9.98e-05 gap=4.88e-05
+ACC-SONATA-F: mix=6160 grad/node=1761 reached=True avg_sq=1.00e-04 gap=4.89e-05
+
+[n_local=200 seed=1] beta/mu=9.443e+02
+EXTRA: mix=50000 grad/node=50000 reached=False avg_sq=2.24e-04 gap=1.07e-04
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=8.54e-01 gap=4.06e-01
+MUDAG: mix=50000 grad/node=10000 reached=False avg_sq=3.34e-04 gap=1.59e-04
+ACC-SONATA-L: mix=9464 grad/node=2705 reached=True avg_sq=9.73e-05 gap=4.63e-05
+ACC-SONATA-F: mix=8792 grad/node=2513 reached=True avg_sq=9.83e-05 gap=4.68e-05
+
+[n_local=200 seed=2] beta/mu=7.794e+02
+EXTRA: mix=25765 grad/node=25765 reached=True avg_sq=1.00e-04 gap=5.11e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.49e-03 gap=1.27e-03
+MUDAG: mix=22865 grad/node=5717 reached=True avg_sq=9.99e-05 gap=5.11e-05
+ACC-SONATA-L: mix=5124 grad/node=1465 reached=True avg_sq=9.93e-05 gap=5.08e-05
+ACC-SONATA-F: mix=4424 grad/node=1265 reached=True avg_sq=9.92e-05 gap=5.08e-05
+
+[n_local=200] median beta/mu_g across seeds: 7.794e+02
+
+[n_local=400 seed=0] beta/mu=5.020e+02
+EXTRA: mix=32557 grad/node=32557 reached=True avg_sq=1.00e-04 gap=4.92e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=3.84e-02 gap=1.89e-02
+MUDAG: mix=44326 grad/node=8866 reached=True avg_sq=9.99e-05 gap=4.92e-05
+ACC-SONATA-L: mix=7616 grad/node=2177 reached=True avg_sq=9.71e-05 gap=4.78e-05
+ACC-SONATA-F: mix=5040 grad/node=1441 reached=True avg_sq=9.53e-05 gap=4.69e-05
+
+[n_local=400 seed=1] beta/mu=5.687e+02
+EXTRA: mix=43150 grad/node=43150 reached=True avg_sq=1.00e-04 gap=4.90e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=4.42e-01 gap=2.16e-01
+MUDAG: mix=43937 grad/node=10985 reached=True avg_sq=1.00e-04 gap=4.90e-05
+ACC-SONATA-L: mix=9296 grad/node=2657 reached=True avg_sq=9.88e-05 gap=4.84e-05
+ACC-SONATA-F: mix=6496 grad/node=1857 reached=True avg_sq=9.81e-05 gap=4.81e-05
+
+[n_local=400 seed=2] beta/mu=5.266e+02
+EXTRA: mix=20536 grad/node=20536 reached=True avg_sq=1.00e-04 gap=5.15e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=1.09e-03 gap=5.61e-04
+MUDAG: mix=22229 grad/node=5558 reached=True avg_sq=1.00e-04 gap=5.15e-05
+ACC-SONATA-L: mix=5012 grad/node=1433 reached=True avg_sq=9.67e-05 gap=4.98e-05
+ACC-SONATA-F: mix=3472 grad/node=993 reached=True avg_sq=9.61e-05 gap=5.00e-05
+
+[n_local=400] median beta/mu_g across seeds: 5.266e+02
+
+[n_local=800 seed=0] beta/mu=3.216e+02
+EXTRA: mix=29818 grad/node=29818 reached=True avg_sq=1.00e-04 gap=4.90e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.69e-02 gap=1.32e-02
+MUDAG: mix=44486 grad/node=8898 reached=True avg_sq=1.00e-04 gap=4.90e-05
+ACC-SONATA-L: mix=7644 grad/node=2185 reached=True avg_sq=9.84e-05 gap=4.82e-05
+ACC-SONATA-F: mix=3720 grad/node=1086 reached=True avg_sq=9.96e-05 gap=4.88e-05
+
+[n_local=800 seed=1] beta/mu=3.809e+02
+EXTRA: mix=37516 grad/node=37516 reached=True avg_sq=1.00e-04 gap=4.93e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.63e-01 gap=1.29e-01
+MUDAG: mix=43309 grad/node=10828 reached=True avg_sq=1.00e-04 gap=4.93e-05
+ACC-SONATA-L: mix=9156 grad/node=2617 reached=True avg_sq=9.68e-05 gap=4.77e-05
+ACC-SONATA-F: mix=4992 grad/node=1457 reached=True avg_sq=1.00e-04 gap=4.93e-05
+
+[n_local=800 seed=2] beta/mu=3.342e+02
+EXTRA: mix=18777 grad/node=18777 reached=True avg_sq=1.00e-04 gap=5.05e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=7.87e-04 gap=3.98e-04
+MUDAG: mix=22645 grad/node=5662 reached=True avg_sq=1.00e-04 gap=5.05e-05
+ACC-SONATA-L: mix=5096 grad/node=1457 reached=True avg_sq=9.77e-05 gap=4.95e-05
+ACC-SONATA-F: mix=2568 grad/node=750 reached=True avg_sq=9.43e-05 gap=4.76e-05
+
+[n_local=800] median beta/mu_g across seeds: 3.342e+02
+
+[n_local=1600 seed=0] beta/mu=2.401e+02
+EXTRA: mix=27549 grad/node=27549 reached=True avg_sq=1.00e-04 gap=4.96e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=1.96e-02 gap=9.70e-03
+MUDAG: mix=44251 grad/node=8851 reached=True avg_sq=1.00e-04 gap=4.96e-05
+ACC-SONATA-L: mix=7588 grad/node=2169 reached=True avg_sq=9.89e-05 gap=4.91e-05
+ACC-SONATA-F: mix=3120 grad/node=911 reached=True avg_sq=9.75e-05 gap=4.84e-05
+
+[n_local=1600 seed=1] beta/mu=2.563e+02
+EXTRA: mix=33692 grad/node=33692 reached=True avg_sq=1.00e-04 gap=4.98e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=1.68e-01 gap=8.34e-02
+MUDAG: mix=43049 grad/node=10763 reached=True avg_sq=1.00e-04 gap=4.98e-05
+ACC-SONATA-L: mix=9072 grad/node=2593 reached=True avg_sq=9.95e-05 gap=4.95e-05
+ACC-SONATA-F: mix=3912 grad/node=1142 reached=True avg_sq=9.62e-05 gap=4.79e-05
+
+[n_local=1600 seed=2] beta/mu=2.282e+02
+EXTRA: mix=16800 grad/node=16800 reached=True avg_sq=1.00e-04 gap=5.02e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=4.57e-04 gap=2.29e-04
+MUDAG: mix=21785 grad/node=5447 reached=True avg_sq=9.99e-05 gap=5.02e-05
+ACC-SONATA-L: mix=4928 grad/node=1409 reached=True avg_sq=9.77e-05 gap=4.91e-05
+ACC-SONATA-F: mix=1968 grad/node=575 reached=True avg_sq=9.51e-05 gap=4.78e-05
+
+[n_local=1600] median beta/mu_g across seeds: 2.401e+02
+
+=== Sweep B: vary lambda_reg (kappa_g axis) ===
+
+[lambda_reg=0.000e+00 seed=0] kappa_g=1.021e+03
+EXTRA: mix=29818 grad/node=29818 reached=True avg_sq=1.00e-04 gap=4.90e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.69e-02 gap=1.32e-02
+MUDAG: mix=44486 grad/node=8898 reached=True avg_sq=1.00e-04 gap=4.90e-05
+ACC-SONATA-L: mix=7644 grad/node=2185 reached=True avg_sq=9.84e-05 gap=4.82e-05
+ACC-SONATA-F: mix=3720 grad/node=1086 reached=True avg_sq=9.96e-05 gap=4.88e-05
+
+[lambda_reg=0.000e+00 seed=1] kappa_g=1.008e+03
+EXTRA: mix=37516 grad/node=37516 reached=True avg_sq=1.00e-04 gap=4.93e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.63e-01 gap=1.29e-01
+MUDAG: mix=43309 grad/node=10828 reached=True avg_sq=1.00e-04 gap=4.93e-05
+ACC-SONATA-L: mix=9156 grad/node=2617 reached=True avg_sq=9.68e-05 gap=4.77e-05
+ACC-SONATA-F: mix=4992 grad/node=1457 reached=True avg_sq=1.00e-04 gap=4.93e-05
+
+[lambda_reg=0.000e+00 seed=2] kappa_g=1.005e+03
+EXTRA: mix=18777 grad/node=18777 reached=True avg_sq=1.00e-04 gap=5.05e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=7.87e-04 gap=3.98e-04
+MUDAG: mix=22645 grad/node=5662 reached=True avg_sq=1.00e-04 gap=5.05e-05
+ACC-SONATA-L: mix=5096 grad/node=1457 reached=True avg_sq=9.77e-05 gap=4.95e-05
+ACC-SONATA-F: mix=2568 grad/node=750 reached=True avg_sq=9.43e-05 gap=4.76e-05
+
+[lambda_reg=0.000e+00] median kappa_g across seeds: 1.008e+03
+
+[lambda_reg=1.000e-04 seed=0] kappa_g=1.021e+03
+EXTRA: mix=29814 grad/node=29814 reached=True avg_sq=1.00e-04 gap=4.90e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.69e-02 gap=1.32e-02
+MUDAG: mix=44481 grad/node=8897 reached=True avg_sq=1.00e-04 gap=4.90e-05
+ACC-SONATA-L: mix=7644 grad/node=2185 reached=True avg_sq=9.83e-05 gap=4.82e-05
+ACC-SONATA-F: mix=3720 grad/node=1086 reached=True avg_sq=9.95e-05 gap=4.88e-05
+
+[lambda_reg=1.000e-04 seed=1] kappa_g=1.007e+03
+EXTRA: mix=37511 grad/node=37511 reached=True avg_sq=1.00e-04 gap=4.93e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.63e-01 gap=1.29e-01
+MUDAG: mix=43309 grad/node=10828 reached=True avg_sq=9.99e-05 gap=4.92e-05
+ACC-SONATA-L: mix=9156 grad/node=2617 reached=True avg_sq=9.67e-05 gap=4.76e-05
+ACC-SONATA-F: mix=4992 grad/node=1457 reached=True avg_sq=9.99e-05 gap=4.92e-05
+
+[lambda_reg=1.000e-04 seed=2] kappa_g=1.005e+03
+EXTRA: mix=18775 grad/node=18775 reached=True avg_sq=1.00e-04 gap=5.05e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=7.87e-04 gap=3.98e-04
+MUDAG: mix=22645 grad/node=5662 reached=True avg_sq=9.99e-05 gap=5.05e-05
+ACC-SONATA-L: mix=5096 grad/node=1457 reached=True avg_sq=9.76e-05 gap=4.95e-05
+ACC-SONATA-F: mix=2568 grad/node=750 reached=True avg_sq=9.42e-05 gap=4.76e-05
+
+[lambda_reg=1.000e-04] median kappa_g across seeds: 1.007e+03
+
+[lambda_reg=1.000e-03 seed=0] kappa_g=1.020e+03
+EXTRA: mix=29781 grad/node=29781 reached=True avg_sq=1.00e-04 gap=4.91e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.68e-02 gap=1.31e-02
+MUDAG: mix=44456 grad/node=8892 reached=True avg_sq=9.99e-05 gap=4.90e-05
+ACC-SONATA-L: mix=7644 grad/node=2185 reached=True avg_sq=9.75e-05 gap=4.79e-05
+ACC-SONATA-F: mix=3720 grad/node=1086 reached=True avg_sq=9.87e-05 gap=4.85e-05
+
+[lambda_reg=1.000e-03 seed=1] kappa_g=1.007e+03
+EXTRA: mix=37471 grad/node=37471 reached=True avg_sq=1.00e-04 gap=4.93e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.61e-01 gap=1.29e-01
+MUDAG: mix=43281 grad/node=10821 reached=True avg_sq=9.99e-05 gap=4.93e-05
+ACC-SONATA-L: mix=9128 grad/node=2609 reached=True avg_sq=9.96e-05 gap=4.91e-05
+ACC-SONATA-F: mix=4992 grad/node=1457 reached=True avg_sq=9.90e-05 gap=4.88e-05
+
+[lambda_reg=1.000e-03 seed=2] kappa_g=1.004e+03
+EXTRA: mix=18752 grad/node=18752 reached=True avg_sq=1.00e-04 gap=5.06e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=7.83e-04 gap=3.96e-04
+MUDAG: mix=22625 grad/node=5657 reached=True avg_sq=1.00e-04 gap=5.06e-05
+ACC-SONATA-L: mix=5096 grad/node=1457 reached=True avg_sq=9.71e-05 gap=4.92e-05
+ACC-SONATA-F: mix=2568 grad/node=750 reached=True avg_sq=9.37e-05 gap=4.74e-05
+
+[lambda_reg=1.000e-03] median kappa_g across seeds: 1.007e+03
+
+[lambda_reg=1.000e-02 seed=0] kappa_g=1.011e+03
+EXTRA: mix=29455 grad/node=29455 reached=True avg_sq=1.00e-04 gap=4.95e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.53e-02 gap=1.25e-02
+MUDAG: mix=44161 grad/node=8833 reached=True avg_sq=1.00e-04 gap=4.95e-05
+ACC-SONATA-L: mix=7588 grad/node=2169 reached=True avg_sq=9.77e-05 gap=4.84e-05
+ACC-SONATA-F: mix=3696 grad/node=1079 reached=True avg_sq=9.78e-05 gap=4.84e-05
+
+[lambda_reg=1.000e-02 seed=1] kappa_g=9.974e+02
+EXTRA: mix=37075 grad/node=37075 reached=True avg_sq=1.00e-04 gap=4.98e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=2.47e-01 gap=1.23e-01
+MUDAG: mix=43013 grad/node=10754 reached=True avg_sq=9.99e-05 gap=4.97e-05
+ACC-SONATA-L: mix=9072 grad/node=2593 reached=True avg_sq=9.86e-05 gap=4.91e-05
+ACC-SONATA-F: mix=4968 grad/node=1450 reached=True avg_sq=9.61e-05 gap=4.78e-05
+
+[lambda_reg=1.000e-02 seed=2] kappa_g=9.956e+02
+EXTRA: mix=18534 grad/node=18534 reached=True avg_sq=1.00e-04 gap=5.10e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=7.41e-04 gap=3.78e-04
+MUDAG: mix=22461 grad/node=5616 reached=True avg_sq=9.99e-05 gap=5.10e-05
+ACC-SONATA-L: mix=5040 grad/node=1441 reached=True avg_sq=9.94e-05 gap=5.07e-05
+ACC-SONATA-F: mix=2544 grad/node=743 reached=True avg_sq=9.47e-05 gap=4.83e-05
+
+[lambda_reg=1.000e-02] median kappa_g across seeds: 9.974e+02
+
+[lambda_reg=1.000e-01 seed=0] kappa_g=9.265e+02
+EXTRA: mix=26516 grad/node=26516 reached=True avg_sq=1.00e-04 gap=5.40e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=1.47e-02 gap=7.94e-03
+MUDAG: mix=41466 grad/node=8294 reached=True avg_sq=9.99e-05 gap=5.40e-05
+ACC-SONATA-L: mix=7084 grad/node=2025 reached=True avg_sq=9.75e-05 gap=5.27e-05
+ACC-SONATA-F: mix=3456 grad/node=1009 reached=True avg_sq=9.45e-05 gap=5.11e-05
+
+[lambda_reg=1.000e-01 seed=1] kappa_g=9.148e+02
+EXTRA: mix=33504 grad/node=33504 reached=True avg_sq=1.00e-04 gap=5.42e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=1.45e-01 gap=7.89e-02
+MUDAG: mix=40533 grad/node=10134 reached=True avg_sq=1.00e-04 gap=5.42e-05
+ACC-SONATA-L: mix=8484 grad/node=2425 reached=True avg_sq=9.97e-05 gap=5.41e-05
+ACC-SONATA-F: mix=4632 grad/node=1352 reached=True avg_sq=9.86e-05 gap=5.35e-05
+
+[lambda_reg=1.000e-01 seed=2] kappa_g=9.150e+02
+EXTRA: mix=16565 grad/node=16565 reached=True avg_sq=1.00e-04 gap=5.55e-05
+GradientTracking: mix=50000 grad/node=25001 reached=False avg_sq=4.34e-04 gap=2.41e-04
+MUDAG: mix=20913 grad/node=5229 reached=True avg_sq=1.00e-04 gap=5.55e-05
+ACC-SONATA-L: mix=4704 grad/node=1345 reached=True avg_sq=9.61e-05 gap=5.46e-05
+ACC-SONATA-F: mix=2352 grad/node=687 reached=True avg_sq=9.65e-05 gap=5.36e-05
+
+[lambda_reg=1.000e-01] median kappa_g across seeds: 9.150e+02

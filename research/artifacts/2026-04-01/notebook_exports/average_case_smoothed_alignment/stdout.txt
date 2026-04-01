@@ -1,0 +1,31 @@
+=== Cell 6 output 1 (stdout) ===
+seeds: [0, 1, 2]
+n,d: (20, 20) lazy: 0.5
+max_mix: 5000 log_every: 10 tol_dist: 0.001
+tau_grid: [0.0, 0.05, 0.1, 0.2, 0.5, 1.0, 2.0]
+=== Cell 9 output 1 (stdout) ===
+
+Calibrating hyperparameters for: path
+  best: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.02, 'MUDAG': 1.0}
+
+Calibrating hyperparameters for: cycle
+  best: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.05, 'MUDAG': 1.0}
+
+Calibrating hyperparameters for: er
+  best: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.2, 'MUDAG': 0.5}
+
+Calibrating hyperparameters for: complete
+  best: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.2, 'MUDAG': 0.5}
+
+Running smoothed-alignment sweep for: path
+
+Running smoothed-alignment sweep for: cycle
+
+Running smoothed-alignment sweep for: er
+
+Running smoothed-alignment sweep for: complete
+
+Done.
+  rows: 336
+  chi_rows: 84
+  diags: 4

@@ -1,0 +1,42 @@
+=== Cell 6 output 1 (stdout) ===
+seeds: [0, 1, 2]
+n,d: (20, 20) lazy: 0.5
+max_mix: 5000 log_every: 10 tol_dist: 0.001
+=== Cell 10 output 1 (stdout) ===
+
+================================================================================
+Graph kind: path
+Best hyperparams: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.02, 'MUDAG': 1.0}
+{'assign': 'random', 'med_chi_eff': 562.2084645982529, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 140.0, 'EXTRA_grads': 140.0, 'GT_mix': 4640.0, 'GT_grads': 2321.0, 'MUDAG_mix': 2380.0, 'MUDAG_grads': 170.0}
+{'assign': 'clustered', 'med_chi_eff': 1199.517088067275, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 160.0, 'EXTRA_grads': 160.0, 'GT_mix': inf, 'GT_grads': inf, 'MUDAG_mix': 2380.0, 'MUDAG_grads': 170.0}
+{'assign': 'adversarial', 'med_chi_eff': 1223.5707943863672, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 160.0, 'EXTRA_grads': 160.0, 'GT_mix': inf, 'GT_grads': inf, 'MUDAG_mix': 2380.0, 'MUDAG_grads': 170.0}
+=== Cell 10 output 4 (stdout) ===
+
+================================================================================
+Graph kind: cycle
+Best hyperparams: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.05, 'MUDAG': 1.0}
+{'assign': 'random', 'med_chi_eff': 295.1305745788369, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 70.0, 'EXTRA_grads': 70.0, 'GT_mix': 1080.0, 'GT_grads': 541.0, 'MUDAG_mix': 1280.0, 'MUDAG_grads': 160.0}
+{'assign': 'clustered', 'med_chi_eff': 410.5519763800903, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 80.0, 'EXTRA_grads': 80.0, 'GT_mix': 1180.0, 'GT_grads': 591.0, 'MUDAG_mix': 1280.0, 'MUDAG_grads': 160.0}
+{'assign': 'adversarial', 'med_chi_eff': 417.5454980309429, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 80.0, 'EXTRA_grads': 80.0, 'GT_mix': 1160.0, 'GT_grads': 581.0, 'MUDAG_mix': 1280.0, 'MUDAG_grads': 160.0}
+=== Cell 10 output 7 (stdout) ===
+
+================================================================================
+Graph kind: er
+Best hyperparams: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.2, 'MUDAG': 0.5}
+{'assign': 'random', 'med_chi_eff': 53.28630707307886, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 70.0, 'EXTRA_grads': 70.0, 'GT_mix': 140.0, 'GT_grads': 71.0, 'MUDAG_mix': 320.0, 'MUDAG_grads': 160.0}
+{'assign': 'clustered', 'med_chi_eff': 53.28630707307886, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 70.0, 'EXTRA_grads': 70.0, 'GT_mix': 140.0, 'GT_grads': 71.0, 'MUDAG_mix': 320.0, 'MUDAG_grads': 160.0}
+{'assign': 'adversarial', 'med_chi_eff': 53.28630707307886, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 70.0, 'EXTRA_grads': 70.0, 'GT_mix': 140.0, 'GT_grads': 71.0, 'MUDAG_mix': 320.0, 'MUDAG_grads': 160.0}
+=== Cell 10 output 10 (stdout) ===
+
+================================================================================
+Graph kind: complete
+Best hyperparams: {'DGD': 0.02, 'EXTRA': 0.2, 'GT': 0.2, 'MUDAG': 0.5}
+{'assign': 'random', 'med_chi_eff': 53.28630707307886, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 70.0, 'EXTRA_grads': 70.0, 'GT_mix': 140.0, 'GT_grads': 71.0, 'MUDAG_mix': 320.0, 'MUDAG_grads': 160.0}
+{'assign': 'clustered', 'med_chi_eff': 53.28630707307886, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 70.0, 'EXTRA_grads': 70.0, 'GT_mix': 140.0, 'GT_grads': 71.0, 'MUDAG_mix': 320.0, 'MUDAG_grads': 160.0}
+{'assign': 'adversarial', 'med_chi_eff': 53.28630707307886, 'DGD_mix': inf, 'DGD_grads': inf, 'EXTRA_mix': 70.0, 'EXTRA_grads': 70.0, 'GT_mix': 140.0, 'GT_grads': 71.0, 'MUDAG_mix': 320.0, 'MUDAG_grads': 160.0}
+=== Cell 11 output 1 (stdout) ===
+Graph stats:
+connected=True  gamma=0.01631  chi=40.9  lambda2_W=0.983686
+min_eig(W)=0.333333  max_eig(W)=1
+No finite points for DGD
+No finite points for DGD

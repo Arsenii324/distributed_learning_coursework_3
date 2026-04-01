@@ -1,0 +1,88 @@
+=== Cell 4 output 1 (stdout) ===
+seeds: [0, 1, 2]
+n,d: (12, 10) lazy: 0.5 max_mix: 3000 log_every: 10
+baseline: cycle + wishart_ridge {'m_per_node': 50, 'lambda_reg': 1.0, 'noise_std': 0.0}
+=== Cell 5 output 1 (stdout) ===
+Graph stats (baseline):
+connected=True  gamma=0.04466  chi=14.9  lambda2_W=0.955342
+min_eig(W)=0.333333  max_eig(W)=1
+Problem stats (seed=0):
+kappa_g=1.27  L_g=2.23  mu_g=1.75  L_l=3.13  beta=1.09
+Problem stats (seed=1):
+kappa_g=1.21  L_g=2.2  mu_g=1.81  L_l=3.02  beta=1.05
+Problem stats (seed=2):
+kappa_g=1.28  L_g=2.3  mu_g=1.79  L_l=3.3  beta=1.26
+
+DGD
+  best hp: 0.02
+    hp=0.02    med mix→tol=-       med grads→tol=-       med final dist=5.18e-03  med final cons=1.04e-01
+    hp=0.05    med mix→tol=-       med grads→tol=-       med final dist=1.04e-02  med final cons=1.98e-01
+    hp=0.1     med mix→tol=-       med grads→tol=-       med final dist=1.61e-02  med final cons=2.89e-01
+    hp=0.2     med mix→tol=-       med grads→tol=-       med final dist=2.32e-02  med final cons=3.88e-01
+
+EXTRA
+  best hp: 0.2
+    hp=0.2     med mix→tol=60.0    med grads→tol=60.0    med final dist=1.06e-12  med final cons=4.06e-15
+    hp=0.1     med mix→tol=120.0   med grads→tol=120.0   med final dist=2.86e-12  med final cons=3.44e-15
+    hp=0.05    med mix→tol=230.0   med grads→tol=230.0   med final dist=5.76e-12  med final cons=4.08e-15
+    hp=0.02    med mix→tol=580.0   med grads→tol=580.0   med final dist=9.10e-12  med final cons=4.25e-15
+
+GT
+  best hp: 0.1
+    hp=0.1     med mix→tol=300.0   med grads→tol=151.0   med final dist=6.01e-12  med final cons=1.57e-10
+    hp=0.05    med mix→tol=460.0   med grads→tol=231.0   med final dist=6.29e-15  med final cons=3.19e-14
+    hp=0.2     med mix→tol=500.0   med grads→tol=251.0   med final dist=8.78e-09  med final cons=2.51e-07
+    hp=0.02    med mix→tol=1160    med grads→tol=581.0   med final dist=2.10e-08  med final cons=9.87e-10
+
+MUDAG
+  best hp: 1.0
+    hp=1.0     med mix→tol=360.0   med grads→tol=90.0    med final dist=6.20e-12  med final cons=1.72e-15
+    hp=2.0     med mix→tol=630.0   med grads→tol=90.0    med final dist=6.65e-12  med final cons=2.07e-15
+    hp=3.0     med mix→tol=900.0   med grads→tol=90.0    med final dist=8.74e-11  med final cons=4.88e-14
+    hp=0.5     med mix→tol=-       med grads→tol=-       med final dist=5.00e+69  med final cons=7.10e+72
+=== Cell 7 output 1 (stdout) ===
+Topology sweep summary (median over seeds):
+
+[path]  gamma=0.01136  chi=57.7  lambda2_W=0.988642
+  MUDAG tuned c_K=2.0
+  DGD    med mix→tol=-       med grads→tol=-     
+  EXTRA  med mix→tol=60.0    med grads→tol=60.0  
+  GT     med mix→tol=2700    med grads→tol=1351  
+  MUDAG  med mix→tol=1080    med grads→tol=90.0  
+
+[cycle]  gamma=0.04466  chi=14.9  lambda2_W=0.955342
+  MUDAG tuned c_K=1.0
+  DGD    med mix→tol=-       med grads→tol=-     
+  EXTRA  med mix→tol=60.0    med grads→tol=60.0  
+  GT     med mix→tol=300.0   med grads→tol=151.0 
+  MUDAG  med mix→tol=360.0   med grads→tol=90.0  
+
+[er]  gamma=0.5  chi=1  lambda2_W=0.500000
+  MUDAG tuned c_K=0.5
+  DGD    med mix→tol=-       med grads→tol=-     
+  EXTRA  med mix→tol=60.0    med grads→tol=60.0  
+  GT     med mix→tol=240.0   med grads→tol=121.0 
+  MUDAG  med mix→tol=180.0   med grads→tol=90.0  
+
+[complete]  gamma=0.5  chi=1  lambda2_W=0.500000
+  MUDAG tuned c_K=0.5
+  DGD    med mix→tol=-       med grads→tol=-     
+  EXTRA  med mix→tol=60.0    med grads→tol=60.0  
+  GT     med mix→tol=240.0   med grads→tol=121.0 
+  MUDAG  med mix→tol=180.0   med grads→tol=90.0  
+=== Cell 8 output 1 (stdout) ===
+Conditioning sweep summary (median over seeds):
+
+[kappa≈10]
+  MUDAG tuned c_K=0.5
+  DGD    med mix→tol=2510    med grads→tol=2510  
+  EXTRA  med mix→tol=230.0   med grads→tol=230.0 
+  GT     med mix→tol=940.0   med grads→tol=471.0 
+  MUDAG  med mix→tol=1820    med grads→tol=260.0 
+
+[kappa≈100]
+  MUDAG tuned c_K=0.5
+  DGD    med mix→tol=-       med grads→tol=-     
+  EXTRA  med mix→tol=-       med grads→tol=-     
+  GT     med mix→tol=-       med grads→tol=-     
+  MUDAG  med mix→tol=-       med grads→tol=-     
